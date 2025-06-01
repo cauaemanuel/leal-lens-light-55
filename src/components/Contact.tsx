@@ -38,15 +38,15 @@ const Contact = () => {
               <div className="space-y-4">
                 <div>
                   <p className="text-sm tracking-wider text-gray-400 mb-1">EMAIL</p>
-                  <p className="font-light">contato@brenoleal.com</p>
+                  <p className="font-light">brenoleal048@gmail.com</p>
                 </div>
                 <div>
                   <p className="text-sm tracking-wider text-gray-400 mb-1">TELEFONE</p>
-                  <p className="font-light">+55 (11) 99999-9999</p>
+                  <p className="font-light">+55 (81) 98287-9530</p>
                 </div>
                 <div>
                   <p className="text-sm tracking-wider text-gray-400 mb-1">LOCALIZAÇÃO</p>
-                  <p className="font-light">São Paulo, Brasil</p>
+                  <p className="font-light">Paulista, Brasil</p>
                 </div>
               </div>
             </div>
@@ -66,17 +66,19 @@ const Contact = () => {
                 />
               </div>
               
-              <div>
-                <input
-                  type="email"
-                  name="email"
-                  placeholder="EMAIL"
-                  value={formData.email}
-                  onChange={handleChange}
-                  className="w-full bg-transparent border-b border-gray-600 py-3 text-white placeholder-gray-400 focus:border-white focus:outline-none transition-colors duration-300 font-light tracking-wide"
-                  required
-                />
-              </div>
+          <div>
+  <input
+    type="text"
+    name="request"
+    placeholder="O QUE DESEJA?"
+    value={formData.message}
+    onChange={handleChange}
+    className="w-full bg-transparent border-b border-gray-600 py-3 text-white placeholder-gray-400 focus:border-white focus:outline-none transition-colors duration-300 font-light tracking-wide"
+    required
+  />
+</div>
+
+
               
               <div>
                 <textarea
