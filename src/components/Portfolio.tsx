@@ -58,8 +58,8 @@ const Portfolio = () => {
           </p>
         </div>
 
-        <Tabs defaultValue="pre-wedding" className="w-full">
-          <TabsList className="grid w-full grid-cols-4 mb-12 bg-white border border-gray-200">
+        <Tabs defaultValue="pre-wedding" className="w-full"> 
+<TabsList className="grid w-full grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 mb-12 bg-white border border-gray-200 gap-2">
             {portfolioCategories.map((category) => (
               <TabsTrigger 
                 key={category.id} 
