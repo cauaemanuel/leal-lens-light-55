@@ -40,12 +40,21 @@ const Hero = () => {
 
   return (
     <section className="relative min-h-screen flex flex-col items-center justify-center overflow-hidden bg-white">
-      <div className="relative z-10 text-center text-black mb-16">
-        <h1 className="text-6xl md:text-8xl font-thin tracking-[0.2em] mb-4">
-          FOCUS
+      {/* Background pattern */}
+      <div className="absolute inset-0 bg-gradient-to-b from-gray-50 to-white opacity-50"></div>
+      
+      <div className="relative z-10 text-center text-black mb-20">
+        <h1 className="text-8xl md:text-9xl font-thin tracking-[0.3em] mb-6 relative">
+          <span className="relative inline-block">
+            FOCUS
+            <div className="absolute -bottom-2 left-0 w-full h-0.5 bg-black transform origin-left animate-pulse"></div>
+          </span>
         </h1>
-        <p className="text-lg md:text-xl font-light tracking-[0.15em] opacity-70">
+        <p className="text-xl md:text-2xl font-light tracking-[0.2em] opacity-80 mb-4">
           FOTOGRAFIA PROFISSIONAL
+        </p>
+        <p className="text-sm md:text-base font-light tracking-[0.15em] opacity-60">
+          Capturando momentos únicos com elegância e simplicidade
         </p>
       </div>
 
