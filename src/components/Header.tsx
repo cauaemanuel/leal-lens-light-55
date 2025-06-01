@@ -15,7 +15,7 @@ const Header = () => {
       <div className="max-w-7xl mx-auto px-6 py-4">
         <nav className="flex justify-between items-center">
           <h1 className="text-xl font-light tracking-wider text-black">
-            BRENO LEAL
+            FOCUS
           </h1>
           
           <div className="hidden md:flex space-x-8">
