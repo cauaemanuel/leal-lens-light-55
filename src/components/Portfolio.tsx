@@ -59,7 +59,9 @@ const Portfolio = () => {
         </div>
 
         <Tabs defaultValue="pre-wedding" className="w-full">
-          <TabsList className="grid w-full grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 mb-12 bg-brand-dark border border-brand-gold gap-2">
+      
+         <div className="border-brand-gold border rounded-lg flex items-center justify-center ">
+            <TabsList className="grid w-full grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-2 mb-10 bg-brand-dark gap-2">
             {portfolioCategories.map((category) => (
               <TabsTrigger
                 key={category.id}
@@ -70,6 +72,8 @@ const Portfolio = () => {
               </TabsTrigger>
             ))}
           </TabsList>
+
+          </div>
 
           {portfolioCategories.map((category) => (
             <TabsContent key={category.id} value={category.id} className="space-y-8">
