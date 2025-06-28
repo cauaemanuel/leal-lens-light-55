@@ -39,12 +39,12 @@ const Portfolio = () => {
         </div>
 
         <Tabs defaultValue="pre-wedding" className="w-full">
-          <TabsList className="grid w-full grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 mb-12 bg-brand-black border border-brand-gold gap-2">
+          <TabsList className="grid w-full grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 mb-12 bg-brand-dark border border-brand-gold gap-2">
             {portfolioCategories.map((category) => (
               <TabsTrigger
                 key={category.id}
                 value={category.id}
-                className="text-sm font-light tracking-wider text-brand-gold data-[state=active]:bg-brand-gold data-[state=active]:text-brand-black"
+                className="text-sm font-light tracking-wider text-brand-gold data-[state=active]:bg-brand-gold data-[state=active]:text-brand-dark"
               >
                 {category.title}
               </TabsTrigger>
@@ -69,7 +69,7 @@ const Portfolio = () => {
                     className="group cursor-pointer aspect-[3/4] bg-gradient-to-br from-gray-200 via-gray-300 to-gray-400 overflow-hidden transition-all duration-500 hover:scale-105 border-2 border-brand-gold"
                   >
                     <div className="relative h-full w-full">
-                      <div className="absolute inset-0 bg-brand-black/0 group-hover:bg-brand-black/20 transition-all duration-500"></div>
+                      <div className="absolute inset-0 bg-brand-dark/0 group-hover:bg-brand-dark/20 transition-all duration-500"></div>
                       <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-all duration-500">
                         <span className="text-brand-gold text-xs tracking-wider font-light">
                           VER DETALHES
@@ -95,7 +95,7 @@ const Portfolio = () => {
               </div>
 
               <div className="text-center mt-12">
-                <button className="px-8 py-3 border border-brand-gold text-brand-gold font-light tracking-wider hover:bg-brand-gold hover:text-brand-black transition-all duration-300">
+                <button className="px-8 py-3 border border-brand-gold text-brand-gold font-light tracking-wider hover:bg-brand-gold hover:text-brand-dark transition-all duration-300">
                   VER GALERIA COMPLETA
                 </button>
               </div>

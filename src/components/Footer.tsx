@@ -3,7 +3,7 @@ import { Instagram, Youtube } from "lucide-react";
 
 const Footer = () => {
   return (
-    <footer className="bg-brand-black py-12 border-t border-brand-gold">
+    <footer className="bg-brand-dark py-12 border-t border-brand-gold">
       <div className="max-w-7xl mx-auto px-6">
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="mb-6 md:mb-0">
