@@ -22,37 +22,37 @@ const Contact = () => {
   };
 
   return (
-    <section id="contact" className="py-20 bg-brand-dark text-white">
+    <section id="contact" className="py-20 bg-brand-dark text-white border-t-2 border-brand-gold">
       <div className="max-w-4xl mx-auto px-6">
         <div className="grid md:grid-cols-2 gap-16">
-          <div>
+          <div className="bg-brand-black/30 p-8 rounded-lg border border-brand-gold/20">
             <h2 className="text-4xl font-thin tracking-wider text-brand-gold mb-8">
               CONTATO
             </h2>
             <div className="space-y-6">
-              <p className="text-gray-300 font-light leading-relaxed">
+              <p className="text-gray-200 font-light leading-relaxed">
                 Interessado em uma colaboração? Entre em contato para 
                 discutirmos seu projeto fotográfico.
               </p>
               
               <div className="space-y-4">
-                <div>
-                  <p className="text-sm tracking-wider text-gray-400 mb-1">EMAIL</p>
+                <div className="border-l-2 border-brand-gold pl-4">
+                  <p className="text-sm tracking-wider text-gray-300 mb-1">EMAIL</p>
                   <p className="font-light text-brand-gold">brenoleal048@gmail.com</p>
                 </div>
-                <div>
-                  <p className="text-sm tracking-wider text-gray-400 mb-1">TELEFONE</p>
+                <div className="border-l-2 border-brand-gold pl-4">
+                  <p className="text-sm tracking-wider text-gray-300 mb-1">TELEFONE</p>
                   <p className="font-light text-brand-gold">+55 (81) 98287-9530</p>
                 </div>
-                <div>
-                  <p className="text-sm tracking-wider text-gray-400 mb-1">LOCALIZAÇÃO</p>
+                <div className="border-l-2 border-brand-gold pl-4">
+                  <p className="text-sm tracking-wider text-gray-300 mb-1">LOCALIZAÇÃO</p>
                   <p className="font-light text-brand-gold">Paulista, Brasil</p>
                 </div>
               </div>
             </div>
           </div>
 
-          <div>
+          <div className="bg-brand-black/20 p-8 rounded-lg border border-brand-gold/30">
             <form onSubmit={handleSubmit} className="space-y-6">
               <div>
                 <input
@@ -61,7 +61,7 @@ const Contact = () => {
                   placeholder="NOME"
                   value={formData.name}
                   onChange={handleChange}
-                  className="w-full bg-transparent border-b border-gray-600 py-3 text-white placeholder-gray-400 focus:border-brand-gold focus:outline-none transition-colors duration-300 font-light tracking-wide"
+                  className="w-full bg-brand-black/40 border-b-2 border-brand-gold/60 py-4 px-2 text-white placeholder-gray-300 focus:border-brand-gold focus:outline-none transition-colors duration-300 font-light tracking-wide"
                   required
                 />
               </div>
@@ -73,7 +73,7 @@ const Contact = () => {
                   placeholder="O QUE DESEJA?"
                   value={formData.message}
                   onChange={handleChange}
-                  className="w-full bg-transparent border-b border-gray-600 py-3 text-white placeholder-gray-400 focus:border-brand-gold focus:outline-none transition-colors duration-300 font-light tracking-wide"
+                  className="w-full bg-brand-black/40 border-b-2 border-brand-gold/60 py-4 px-2 text-white placeholder-gray-300 focus:border-brand-gold focus:outline-none transition-colors duration-300 font-light tracking-wide"
                   required
                 />
               </div>
@@ -85,14 +85,14 @@ const Contact = () => {
                   value={formData.message}
                   onChange={handleChange}
                   rows={4}
-                  className="w-full bg-transparent border-b border-gray-600 py-3 text-white placeholder-gray-400 focus:border-brand-gold focus:outline-none transition-colors duration-300 font-light tracking-wide resize-none"
+                  className="w-full bg-brand-black/40 border-b-2 border-brand-gold/60 py-4 px-2 text-white placeholder-gray-300 focus:border-brand-gold focus:outline-none transition-colors duration-300 font-light tracking-wide resize-none"
                   required
                 />
               </div>
               
               <button
                 type="submit"
-                className="w-full mt-8 py-3 border border-brand-gold text-brand-gold font-light tracking-wider hover:bg-brand-gold hover:text-brand-dark transition-all duration-300"
+                className="w-full mt-8 py-4 bg-brand-gold/10 border-2 border-brand-gold text-brand-gold font-light tracking-wider hover:bg-brand-gold hover:text-brand-dark transition-all duration-300 rounded-md"
               >
                 ENVIAR MENSAGEM
               </button>
