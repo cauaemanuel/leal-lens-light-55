@@ -23,6 +23,26 @@ const Portfolio = () => {
         url: `/casamento%20(${i + 1}).jpeg`,
         alt: `Casamento ${i + 1}`
       }))
+    }, 
+    {
+      id: "frame",
+      title: "FRAME",
+      description: "Ensaios fotográficos que capturam a essência de cada momento",
+      images: Array.from({ length: 6 }, (_, i) => ({
+        id: i + 13, // começando no 13
+        url: `/frame%20(${i + 1}).jpg`,
+        alt: `Frame ${i + 1}`
+      }))
+    },
+    {
+      id:"15 anos",
+      title: "15 ANOS",
+      description: "Celebrações inesquecíveis de 15 anos",
+      images: Array.from({ length: 6 }, (_, i) => ({
+        id: i + 19, // começando no 19
+        url: `/15anos%20(${i + 1}).jpg`,
+        alt: `15 Anos ${i + 1}`
+      }))
     }
   ];
 

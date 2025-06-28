@@ -22,7 +22,7 @@ const Contact = () => {
   };
 
   return (
-    <section id="contact" className="py-20 bg-blue-950 text-white">
+    <section id="contact" className="py-20 bg-brand-dark/95 text-white">
       <div className="max-w-4xl mx-auto px-6">
         <div className="grid md:grid-cols-2 gap-16">
           <div>
