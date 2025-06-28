@@ -3,11 +3,11 @@ import { Instagram, Youtube } from "lucide-react";
 
 const Footer = () => {
   return (
-    <footer className="bg-white py-12 border-t border-gray-200">
+    <footer className="bg-brand-black py-12 border-t border-brand-gold">
       <div className="max-w-7xl mx-auto px-6">
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="mb-6 md:mb-0">
-            <p className="text-sm text-gray-600 font-light tracking-wide">
+            <p className="text-sm text-brand-gold font-light tracking-wide">
               © 2025 BRENO LEAL. TODOS OS DIREITOS RESERVADOS.
             </p>
           </div>
@@ -17,7 +17,7 @@ const Footer = () => {
               href="https://instagram.com" 
               target="_blank" 
               rel="noopener noreferrer"
-              className="text-gray-600 hover:text-black transition-colors duration-300"
+              className="text-brand-gold hover:text-white transition-colors duration-300"
             >
               <Instagram size={20} strokeWidth={1.5} />
             </a>
@@ -25,7 +25,7 @@ const Footer = () => {
               href="https://youtube.com" 
               target="_blank" 
               rel="noopener noreferrer"
-              className="text-gray-600 hover:text-black transition-colors duration-300"
+              className="text-brand-gold hover:text-white transition-colors duration-300"
             >
               <Youtube size={20} strokeWidth={1.5} />
             </a>

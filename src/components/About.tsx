@@ -5,7 +5,7 @@ const About = () => {
   <div className="max-w-4xl mx-auto px-6">
     <div className="grid md:grid-cols-2 gap-16 items-center">
       <div>
-  <h2 className="text-4xl font-thin tracking-wider text-black mb-8">
+  <h2 className="text-4xl font-thin tracking-wider text-brand-dark mb-8">
     SOBRE
   </h2>
   <div className="space-y-6 text-gray-600 leading-relaxed">
@@ -21,9 +21,8 @@ const About = () => {
   </div>
 </div>
 
-
       <div className="relative">
-        <div className="aspect-[3/4] bg-gradient-to-br from-gray-100 to-gray-300 rounded-sm overflow-hidden">
+        <div className="aspect-[3/4] bg-gradient-to-br from-gray-100 to-gray-300 rounded-sm overflow-hidden border-2 border-brand-gold">
           <img 
             src="/IMG_4179.JPEG" 
             alt="Retrato" 
@@ -34,8 +33,6 @@ const About = () => {
     </div>
   </div>
 </section>
-
-
   );
 };
 

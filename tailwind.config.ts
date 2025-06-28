@@ -23,6 +23,11 @@ export default {
 				sans: ['Inter', 'system-ui', 'sans-serif'],
 			},
 			colors: {
+				// Custom brand colors
+				'brand-dark': '#001f36',
+				'brand-black': '#000000',
+				'brand-gold': '#daa520',
+				
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
 				ring: 'hsl(var(--ring))',
