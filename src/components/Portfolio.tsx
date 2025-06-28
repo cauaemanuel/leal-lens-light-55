@@ -60,7 +60,7 @@ const Portfolio = () => {
 
         <Tabs defaultValue="pre-wedding" className="w-full">
       
-         <div className="border-brand-gold border rounded-lg flex items-center justify-center ">
+         <div className="border-brand-gold border rounded-lg flex items-center justify-center mb-8">
             <TabsList className="grid w-full grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-2 mb-10 bg-brand-dark gap-2">
             {portfolioCategories.map((category) => (
               <TabsTrigger
